@@ -1,6 +1,6 @@
-// Paste ONLY your Supabase Project URL and Publishable (or legacy anon) key here.
-// NEVER put a secret/service_role key in browser code.
+// Paste your existing Supabase project URL and browser-safe publishable / legacy anon key.
+// NEVER put a service_role or sb_secret_ key in a public GitHub repository.
 window.GSA_CONFIG = {
-  supabaseUrl: 'https://bzglcgxflregleskeslr.supabase.co',
-  supabaseAnonKey: 'sb_publishable_aFphHnRRD5oAEMYRZp77Ig_js_7YWxo'
+  SUPABASE_URL: 'https://YOUR_PROJECT.supabase.co',
+  SUPABASE_PUBLISHABLE_KEY: 'YOUR_PUBLISHABLE_KEY'
 };
